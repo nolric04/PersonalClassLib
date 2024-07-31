@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<modules>
+	<!-- core -->
+<!--	<module>-->
+<!--		<interface>&&NAMESPACE&&,&&ASSEMBLY&&</interface>-->
+<!--		<implementation>&&NAMESPACE&&,&&ASSEMBLY&&</implementation>-->
+<!--	</module>-->
+	<module>
+		<interface>Interfaces.Core.GestionSession.ISession,Interfaces</interface>
+		<implementation>Dnator.Core.GestionSession.Session,Dnator</implementation>
+	</module>
+
+	<module>
+		<interface>Interfaces.Core.Reporting.IExceptionManager,Interfaces</interface>
+		<implementation>Dnator.Core.Reporting.ExceptionManager,Dnator</implementation>
+	</module>
+
+	<module>
+		<interface>Interfaces.Core.Configuration.IConfigurationProvider,Interfaces</interface>
+		<implementation>Dnator.Core.Configuration.ConfigurationProvider,Dnator</implementation>
+	</module>
+
+	<!-- others -->
+	<module>
+		<interface>Interfaces.Interaction.Checkbox.ICheckBoxInteraction,Interfaces</interface>
+		<implementation>Dnator.Interaction.Checkbox.CheckBoxInteraction,Dnator</implementation>
+	</module>
+	
+	<module>
+		<interface>Interfaces.Interaction.Actions.IContextAction,Interfaces</interface>
+		<implementation>Dnator.Interaction.Actions.ContextAction,Dnator</implementation>
+	</module>
+	<module>
+		<interface>Interfaces.Interaction.Reinitialisation.IReinitialisationChamp,Interfaces</interface>
+		<implementation>Dnator.Interaction.Reinitialisation.ReinitialisationChamp,Dnator</implementation>
+	</module>
+	<module>
+		<interface>Interfaces.Interaction.Validation.Comparaison.IComparaison,Interfaces</interface>
+		<implementation>Dnator.Interaction.Validation.Comparaison.Comparaison,Dnator</implementation>
+	</module>
+	<module>
+		<interface>Interfaces.Formatage.Transformation.IManipulationString,Interfaces</interface>
+		<implementation>Dnator.Formatage.Transformation.ManipulationString,Dnator</implementation>
+	</module>
+	<module>
+		<interface>Interfaces.Interaction.ItemRepo.IHightLightItem,Interfaces</interface>
+		<implementation>Dnator.Interaction.ItemRepo.HightLightItem,Dnator</implementation>
+	</module>
+	<module>
+		<interface>Dnator.DnatorLib.interop.Excel.Manager.IManagerInteropExcel,Dnator</interface>
+		<implementation>Dnator.DnatorLib.interop.Excel.Manager.ManagerInteropExcel,Dnator</implementation>
+	</module>
+	<module>
+		<interface>Interfaces.DnatorLib.PathMethods.IRelativePath,Interfaces</interface>
+		<implementation>Dnator.DnatorLib.PathMethods.RelativePath,Dnator</implementation>
+	</module>
+</modules>

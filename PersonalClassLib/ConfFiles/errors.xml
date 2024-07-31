@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<errors>
+
+	<message code="100">Veuillez contacter un référent DNAT</message>
+	<message code="110">"Le contexte n'est pas correctement renseigné (OUTILLAGE/TEST_CASE)"</message>
+	
+	<message code="201">L'élément passé en paramètre n'est pas un WebElement</message>
+	<message code="202">L'élément passé en paramètre n'est pas une CheckBox</message>
+	<message code="203">L'élément passé en paramètre n'est pas un Input</message>
+	<message code="210">L'élément passé en paramètre n'est pas supporté par la méthode</message>
+	<message code="211">Un bouton radio ne peut être réinitialisé</message>
+	<message code="212">La valeur passée ne peut pas être convertie en nombre</message>
+	
+	
+	<message code="401">La valeur passée en paramètre n'a pas pu être convertie en nombre</message>
+	
+	<message code="431">Le TestSuite ne contient pas la variable Globale G_CONTEXT_TC_OUTIL</message>
+	<message code="432">Le TestSuite ne contient pas la variable Globale G_CONTEXT_PROD</message>
+	<message code="433">Le TestSuite ne contient pas la variable Globale G_CONTEXT_CDR</message>
+	
+	<message code="451">Le fichier app.config ne contient pas la variable Globale G_CONTEXT_TC_OUTIL</message>
+	<message code="452">Le fichier app.config ne contient pas la variable Globale G_CONTEXT_PROD</message>
+	<message code="453">Le fichier app.config ne contient pas la variable Globale G_CONTEXT_CDR</message>
+	
+	<message code="501">La clé demandée est appelée mais avec le mauvais type</message>
+	<message code="502">La clé demandée est appelée mais pas initialisée</message>
+	<message code="503">La clé demandée est associée à une liste</message>
+
+	<message code="2010">Clic effectué avec la souris</message>
+	<message code="2011">Clic effectué sans la souris</message>
+	<message code="2012">Saisie effectuée avec le clavier</message>
+	<message code="2013">Saisie effectuée sans le clavier</message>
+	<message code="2021">Tentatives de check de la liste de checkBox</message>
+	<message code="2022">Tentatives d'uncheck de la liste de checkBox</message>
+	<message code="2023">Check effectué</message>
+	<message code="2031">Réinitialisation CheckBox</message>
+	<message code="2032">Réinitialisation Champ Texte</message>
+	<message code="2050">Dossier Créé avec Succès</message>
+	<message code="2051">Fichier Créé avec Succès</message>
+	
+	<message code="4001">Utilisation d'une méthode FA_Excel.</message>
+	<message code="4099">Action effectuée avec succès :</message>
+	
+	<message code="4101">Une feuille est déjà nommée ainsi.</message>
+	<message code="4102">Aucune ligne n'a pu être trouvée depuis les paramètres reçus</message>
+	<message code="4103">L'index de colonne de Cellule ne peut pas être inférieur à 0</message>
+	<message code="4404">L'application n'a pas été lancée</message>
+	<message code="4405">Aucun Fichier n'a été sélectionné</message>
+	<message code="4406">Aucune feuille de calcul n'a été sélectionné</message>
+	
+	<message code="9001">La Comparaison est cohérente à l'attendu</message>
+	<message code="9002">La Comparaison n'est pas cohérente à l'attendu</message>
+</errors>
